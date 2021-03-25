@@ -25,5 +25,5 @@ Example of config:
 }
 ```
 
-Where `regex_n_target` - dictinary key of a commands from commands list.
+Where `regex_n_target` - dictinary key of a command from commands list.
 And `hot--Sort` - will be the name of new command in Command Palette
