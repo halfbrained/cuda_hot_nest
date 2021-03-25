@@ -1,0 +1,33 @@
+[info]
+title=Nested Hotkeys
+desc=Custom menu commands
+type=cudatext-plugin
+subdir=cuda_hot_nest
+homepage=https://github.com/halfbrained/cuda_hot_nest
+
+[item2]
+section=events
+events=on_start
+
+;[item3]
+;section=commands
+;caption=_LSP\_run
+;method=run
+
+[item20]
+section=commands
+caption=Nested Hotkeys\Config
+method=config
+menu=o
+
+[item21]
+section=commands
+caption=Nested Hotkeys\Reload config
+method=load_config
+menu=o
+
+[item22]
+section=commands
+caption=Nested Hotkeys\View commands
+method=view_keys
+menu=o
